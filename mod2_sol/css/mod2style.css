@@ -30,6 +30,7 @@ p {
 
 .row {
    width: 100%;
+   margin: 20px
    
 }
 
@@ -41,8 +42,7 @@ p {
 
 .content {
    margin: 10px;
-   padding: 10px;
-   height: 400px;
+   height: 3000px;
    background: #D3D3D3;
 }
 
