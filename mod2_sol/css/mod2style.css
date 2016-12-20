@@ -8,25 +8,39 @@ h1 {
    text-align: center;
 }
 
+p {
+   width: 90%;
+   margin-left:auto;
+   margin-right:auto;
+   font-family:helvetica;
+}
+
+
 .row {
    width: 100%;
    
 }
 
-div.container {
-background: #D3D3D3;
+.container {
+   background: #D3D3D3;
 }
+
+
 
 /* For desktop: */
 @media only screen and (min-width: 992px) {
+   .col-1, .col-2, .col-3 {
    float: left;
+   }
 .col-1 {width: 33%;}
 .col-2 {width: 33%;}
 .col-3 {width: 33%;}
 }
 /* For tablet: */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+   .col-1, .col-2, .col-3 {
    float: left;
+   }
 .col-1 {width: 50%;}
 .col-2 {width: 50%;}
 .col-3 {width: 100%;}
@@ -34,7 +48,9 @@ background: #D3D3D3;
 
 /* For mobile phones: */
 @media only screen and (max-width: 767px) {
+   .col-1, .col-2, .col-3 {
    float: left;
+   }
     [class*="col-"] {
         width: 100%;
     }
