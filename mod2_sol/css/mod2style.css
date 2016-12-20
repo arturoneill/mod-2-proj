@@ -11,6 +11,8 @@ body {
 h1 {
    color:#f44242;
    text-align: right;
+   margin: 20px;
+   
 }
 
 p {
@@ -27,7 +29,8 @@ p {
 
 .container {
    background: #D3D3D3;
-   padding: 20px
+   padding: 10px;
+   margin: 10px;
 }
 
 
