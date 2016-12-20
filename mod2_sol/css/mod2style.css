@@ -4,9 +4,13 @@
    font-family: Helvetica, Arial, "sans serif";
 }
 
+body {
+   background:#eaddca;
+}
+
 h1 {
    color:#f44242;
-   text-align: center;
+   text-align: right;
 }
 
 p {
