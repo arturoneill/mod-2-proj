@@ -8,14 +8,25 @@ h1 {
    text-align: center;
 }
 
+.row {
+   width: 100%;
+   
+}
+
+div.container {
+background: #D3D3D3;
+}
+
 /* For desktop: */
 @media only screen and (min-width: 992px) {
+   float: left;
 .col-1 {width: 33%;}
 .col-2 {width: 33%;}
 .col-3 {width: 33%;}
 }
 /* For tablet: */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+   float: left;
 .col-1 {width: 50%;}
 .col-2 {width: 50%;}
 .col-3 {width: 100%;}
@@ -23,6 +34,7 @@ h1 {
 
 /* For mobile phones: */
 @media only screen and (max-width: 767px) {
+   float: left;
     [class*="col-"] {
         width: 100%;
     }
