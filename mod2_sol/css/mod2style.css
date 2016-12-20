@@ -1,6 +1,23 @@
 
+body {
+   box-sizing:border-box;
+}
 
 h1 {
    color:#f44242;
    text-align: center;
 }
+
+.lgscreen {
+   width: 33%;
+}
+
+.mdscreen {
+   width: 50%;
+}
+
+.smscreen {
+   width: 100%;
+   
+}
+
