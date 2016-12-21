@@ -17,8 +17,10 @@ h1 {
 
 h2 {
    color:#f44242;
-   text-align: right;
-   width: 50px;
+   position: relative;
+   top: 0px;
+   right 0px;
+   width: 120px;
    padding: 10px;
    background:#00FFFF;
    border-width: 1px;
