@@ -21,10 +21,23 @@ p {
    margin-right:auto;
 }
 
+.ptitle {
+   color:#f44242;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 120px;
+   padding: 10px;
+   background:#00FFFF;
+   border: 1px solid black;
+}
+   
+
 
 .row {
    width: 100%;
    background: black;
+   margin: 20px;
    
 }
 
@@ -40,18 +53,6 @@ p {
    border: 1px solid black;
    position: relative;
 }
-
-h2 {
-   color:#f44242;
-   position: absolute;
-   top: 0px;
-   right: 0px;
-   width: 120px;
-   padding: 10px;
-   background:#00FFFF;
-   border: 1px solid black;
-}
-
 
 
 /* For desktop: */
