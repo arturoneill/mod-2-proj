@@ -22,6 +22,7 @@ h2 {
    padding: 10px;
    background:#00FFFF;
    border-width: 1px;
+   border-color: black;
 }
 
 p {
@@ -48,6 +49,7 @@ p {
    height: 300px;
    background: #D3D3D3;
    border-width: 1px;
+   border-color: black;
 }
 
 
