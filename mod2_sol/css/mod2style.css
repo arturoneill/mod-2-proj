@@ -54,6 +54,7 @@ p {
    padding: 10px;
    background:#00FFFF;
    border: 1px solid black;
+   text-align: center;
    font-weight: bold;
 }
 
