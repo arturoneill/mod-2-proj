@@ -21,18 +21,7 @@ p {
    margin-right:auto;
 }
 
-.ptitle {
-   color:#f44242;
-   position: absolute;
-   top: 0px;
-   right: 0px;
-   width: 120px;
-   padding: 10px;
-   background:#00FFFF;
-   border: 1px solid black;
-}
-   
-
+ 
 
 .row {
    width: 100%;
@@ -52,6 +41,17 @@ p {
    background: #D3D3D3;
    border: 1px solid black;
    position: relative;
+}
+
+.ptitle {
+   color:#f44242;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 120px;
+   padding: 10px;
+   background:#00FFFF;
+   border: 1px solid black;
 }
 
 
